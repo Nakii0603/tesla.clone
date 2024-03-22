@@ -5,20 +5,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body class="body_container justify-center">
-    <nav>
-      <div class="flex">
-        <img src="/img/logo.svg" alt="" />
-        <div>
-          <a class="" href="">Vehicles</a>
-          <a href="">Energy</a>
-          <a href="">Charging</a>
-          <a href="">Discover</a>
-          <a href="">Shop</a>
+  <body class="body_container align-center flex-col">
+    <nav class="flex gap-32 justify-center align-center">
+      <img src="/img/logo.svg" class="left-start" alt="" />
+      <a class="color-white" href="">Vehicles</a>
+      <a class="color-white" href="">Energy</a>
+      <a class="color-white" href="">Charging</a>
+      <a class="color-white" href="">Discover</a>
+      <a class="color-white" href="">Shop</a>
+    </nav>
+    <section class="container flex justify-center section-img">
+      <div class="flex align-center flex-col gap-10 m-130 z-3">
+        <h1 class="color-white font-40">Model Y</h1>
+        <p class="color-white font-20">From $31,890*</p>
+        <span class="color-white font-12">After Federal Tax Credit & Est. Gas Savings</span>
+      </div>
+      <video autoplay muted loop playsinline class="background-video">
+        <source src="/img/tesla-video.mp4" type="video/mp4" />
+      </video>
+      <div class="flex flex-col gap-48">
+        <div class="z-4 flex gap-40">
+          <div class="font-14 btn-1 center">Shop Available</div>
+          <div class="font-14 btn-2 center">Demo Drive</div>
+        </div>
+        <div class="z-2 align-center flex flex-col">
+          <p class="font-12 color-white">*Price before incentives and savings is $42,990, excluding taxes and fees. Subject to change.</p>
+          <p class="font-12 color-white underline">Learn about est. gas savings.</p>
         </div>
       </div>
-    </nav>
-    <!-- <section class="container">gd</section> -->
+    </section>
+    <section class="container flex justify-center section-img">
+      <div class="flex align-center flex-col gap-10 m-130 z-3">
+        <h1 class="color-black font-40">Brand New Model 3</h1>
+        <span class="color-black font-20">Lease starting at $329/mo*</span>
+      </div>
+      <img src="/img/s2img.png" class="background-video" alt="" />
+      <div class="flex flex-col gap-48">
+        <div class="z-4 flex gap-40">
+          <div class="font-14 btn-1 center">Custom Order</div>
+          <div class="font-14 btn-2 center">Demo Drive</div>
+        </div>
+        <div class="z-2 align-center flex flex-col">
+          <p class="font-12 color-white">*Excludes taxes and fees with price subject to change. Available in select states.</p>
+          <p class="font-12 color-white underline">See Details</p>
+        </div>
+      </div>
+    </section>
+    <section class="container flex justify-center section-img">
+      <div class="flex align-center flex-col gap-10 m-130 z-3">
+        <h1 class="color-black font-40">Model X</h1>
+        <p class="color-black font-20">From $68,590*</p>
+        <span class="color-black font-12">After Federal Tax Credit & Est. Gas Savings</span>
+      </div>
+      <img src="/img/s3img.png" class="background-video" alt="" />
+      <div class="flex flex-col gap-48">
+        <div class="z-4 flex gap-40">
+          <div class="font-14 btn-1 center">Custom Order</div>
+          <div class="font-14 btn-2 center">Demo Drive</div>
+        </div>
+        <div class="z-2 align-center flex flex-col">
+          <p class="font-12 color-white">*Price before incentives and savings is $79,990, excluding taxes and fees. Subject to change.</p>
+          <p class="font-12 color-white underline">Learn about est. gas savings.</p>
+        </div>
+      </div>
+    </section>
+    <section class="container flex justify-center section-img">
+      <div class="flex align-center flex-col gap-10 m-130 z-3">
+        <h1 class="color-black font-40">Model S</h1>
+        <p class="color-black font-20">From $71,090*</p>
+        <span class="color-black font-12">After Est. Gas Savings</span>
+      </div>
+      <img src="/img/s4img.png" class="background-video" alt="" />
+      <div class="flex flex-col gap-48">
+        <div class="z-4 flex gap-40">
+          <div class="font-14 btn-1 center">Custom Order</div>
+          <div class="font-14 btn-2 center">Demo Drive</div>
+        </div>
+        <div class="z-2 align-center flex flex-col">
+          <p class="font-12 color-black">*Price before savings is $74,990, excluding taxes and fees. Subject to change.</p>
+          <p class="font-12 color-black underline-black">Learn about est. gas savings.</p>
+        </div>
+      </div>
+    </section>
+    <section class="container flex justify-center section-img">
+      <img src="/img/s5img.png" class="background-video" alt="" />
+      <div class="z-4 flex gap-40">
+        <div class="font-14 btn-1 center">Custom Order</div>
+        <div class="font-14 btn-2 center">Demo Drive</div>
+      </div>
+    </section>
+    <section class="container flex justify-center section-img">
+      <div class="flex align-center flex-col gap-10 m-130 z-3">
+        <h1 class="color-white font-40">Experience Tesla</h1>
+        <span class="color-white font-12">Schedule a Demo Drive Today</span>
+      </div>
+      <video class="background-video" autoplay muted loop playsinline>
+        <source src="/img/s6img.webm" class="background-video" type="video/mp4" />
+      </video>
+      <div class="z-4 flex gap-40">
+        <div class="font-14 btn-3 center">Demo Drive</div>
+      </div>
+    </section>
+    <section class="container flex justify-center section-img">
+      <div class="flex align-center flex-col gap-10 m-130 z-3">
+        <h1 class="color-white font-40">Solar Panels</h1>
+        <span class="color-white font-12">Schedule a Virtual Consultation</span>
+      </div>
+      <img src="/img/s7img.png" class="background-video" alt="" />
+      <div class="z-4 flex gap-40">
+        <div class="font-14 btn-1 center">Order Now</div>
+        <div class="font-14 btn-2 center">Learn More</div>
+      </div>
+    </section>
+    <section class="container flex justify-center section-img">
+      <div class="flex align-center flex-col gap-10 m-130 z-3">
+        <h1 class="color-black font-40">Solar Roof</h1>
+        <span class="color-black font-12">Produce Clean Energy From Your Roof</span>
+      </div>
+      <img src="/img/s8img.png" class="background-video" alt="" />
+      <div class="z-4 flex gap-40">
+        <div class="font-14 btn-1 center">Order Now</div>
+        <div class="font-14 btn-2 center">Learn More</div>
+      </div>
+    </section>
+    <section class="container flex justify-center section-img">
+      <div class="flex align-center flex-col gap-10 m-130 z-3">
+        <h1 class="color-black font-40">Powerwall</h1>
+      </div>
+      <img src="/img/s9img.png" class="background-video" alt="" />
+      <div class="z-4 flex gap-40">
+        <div class="font-14 btn-1 center">Order Now</div>
+        <div class="font-14 btn-2 center">Learn More</div>
+      </div>
+    </section>
+    <section class="container flex justify-center section-img">
+      <div class="flex align-center flex-col gap-10 m-130 z-3">
+        <h1 class="color-black font-40">Accessories</h1>
+      </div>
+      <img src="/img/s10img.png" class="background-video" alt="" />
+      <div class="flex flex-col gap-48 align-center">
+        <div class="z-4 flex gap-40">
+          <div class="font-14 btn-4 center">Learn More</div>
+        </div>
+        <div class="z-2 justify-center flex gap-8">
+          <p class="color-white font-12">Tesla © 2024</p>
+          <p class="color-white font-12">Privacy & Legal</p>
+          <p class="color-white font-12">Vehicle Recalls</p>
+          <p class="color-white font-12">Contact</p>
+          <p class="color-white font-12">News</p>
+          <p class="color-white font-12">Get Updates</p>
+          <p class="color-white font-12">Locations</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

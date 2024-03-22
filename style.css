@@ -1,16 +1,39 @@
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
-  width: 1920px;
-  background-color: aqua;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  z-index: 1;
 }
 a {
   text-decoration: none;
+  color: black;
+}
+body {
+  margin: 0;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-12 {
+  font-size: 12px;
+}
+.m-130 {
+  margin-top: 130px;
 }
 .body_container {
   display: flex;
   width: 100vw;
-}
-.flex {
-  display: flex;
 }
 .flex-col {
   flex-direction: column;
@@ -18,6 +41,122 @@ a {
 .justify-center {
   justify-content: center;
 }
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.relative {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
 .color-white {
   color: white;
+}
+.color-black {
+  color: black;
+}
+.left-start {
+  left: 0;
+  position: absolute;
+}
+.gap-32 {
+  gap: 32px;
+}
+.gap-8 {
+  gap: 8px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-40 {
+  gap: 40px;
+}
+.gap-48 {
+  gap: 48px;
+}
+nav {
+  width: 1920px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.underline {
+  text-decoration: underline white 1px solid;
+}
+.underline-black {
+  text-decoration: underline black 1px solid;
+}
+
+.z-3 {
+  z-index: 3;
+  position: absolute;
+}
+.z-4 {
+  margin-top: 830px;
+  z-index: 4;
+}
+.z-2 {
+  z-index: 4;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-1 {
+  width: 264px;
+  height: 40px;
+  background-color: #f4f4f4cc;
+  border-radius: 4px;
+}
+.btn-2 {
+  width: 264px;
+  height: 40px;
+  background-color: #171a20a6;
+  color: white;
+  border-radius: 4px;
+}
+.btn-3 {
+  width: 264px;
+  height: 40px;
+  color: white;
+  border-radius: 4px;
+  border: white solid 3px;
+}
+.btn-4 {
+  width: 264px;
+  height: 40px;
+  color: black;
+  border-radius: 4px;
+  background-color: white;
+}
+.s1 {
+  width: 1920px;
+  height: 975px;
+  z-index: 1;
+  position: relative;
+}
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.section-img {
+  width: 1920px;
+  height: 975px;
+  z-index: 1;
+}
+.section-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
