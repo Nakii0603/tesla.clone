@@ -1,0 +1,23 @@
+.container {
+  width: 1920px;
+  background-color: aqua;
+}
+a {
+  text-decoration: none;
+}
+.body_container {
+  display: flex;
+  width: 100vw;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.color-white {
+  color: white;
+}
